@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(74, 72, 69);
+    background-color: rgb(215, 211, 211);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px; 
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #415c62;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: #415c62;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Mengatur alignment vertikal */
+    gap: 80px; /* Jarak antara foto dan informasi */
+}
+
+.profile-photo {
+    max-width: 300px;
+    border: 25px solid #415c62;
+    border-radius: 25px;
+}
+
+.profile-info {
+    font-size: 1.2rem;
+    padding-top: 125px; /* Memberikan sedikit ruang di atas informasi */
+}
+
+.profile-info p {
+    margin: 22px 0;
+    font-weight: bold;
+}
+
+.profile-info span {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
